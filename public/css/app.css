@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #fff;
+    color: black;
+    line-height: 1.6;
+}
+header{
+    width: 100.;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.logo{
+    font-weight: 900;
+    color: #223366;
+    font-size: 22px;
+    position: relative;
+}
+.logo span.underline{
+    position: absolute;
+    bottom: 5px;
+    left:0;
+    width: 35px;
+    height: 3px;
+    background-color: red;
+}
+header nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+header nav a:hover{
+    color: red;
+}
+/* how to the red boutton */
+header div .btn{
+    background-color: #f4e8e8c8;
+    color: #ff2929c8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px ;
+}
+.textpart2 p{
+    margin: 20px 0;
+    color: #555;
+}
+.buttons .btn{
+    background-color:#ff2929c8;
+    color: #fff;
+    padding: 12px 25px ;
+    border-radius: 25px;
+    font-weight: 400;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.img-main img{
+    width: 450px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 30px;
+
+}
+.service-left .btn{
+    background-color: #ff2929c8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.service-right{
+    display: flex;
+    gap: 25px;
+    flex: 2;
+    justify-content: flex-end;
+}
+.card{
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px #8e8c8c;
+    padding: 40px;
+    text-align: left;
+    width: 260px;
+
+}
+.card h3{
+    color: #492d95;
+    font-size: 14px;
+}
+.card p{
+    color: #666;
+    font-size: 14px;
+}
+.contact-container{
+    padding:  30px 30px ;
+}
+.contact-container h4 {
+    text-transform: uppercase;
+    color: #ff2929c8;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.contact-container h2{
+    color: #223366;
+    margin-bottom: 40px;
+}
+form{
+    max-width: 800px;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 ;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+form button {
+    background-color: #ff2929c8;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+footer h3{
+    color: #ff2929c8;
+    margin-bottom: 10px;
+}
+footer nav a {
+    color: #e02525;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    
+}
+footer p{
+    font-size: 13px;
+    margin-top: 20px;
+    color: white;
+}
+footer{
+    background-color: #223366;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-top: 40px;
+}
+
+
